@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+        div{
+            background-color: rgb(187, 187, 121);
+            height: 5rem;
+            width: 5rem;
+             transition-duration: 10s; 
+            animation-name: new;
+            animation-duration: 5s;
+            animation-iteration-count: 100;
+            animation-direction: alternate-reverse;
+
+        }
+        
+        @keyframes new{
+            from{
+                height: 5rem; width:5rem;background-color: blueviolet;
+                margin-left: 5rem;margin-top: 5rem;
+            }
+            to{
+                height: 5rem; width:5rem;background-color: rgb(146, 12, 53);
+                margin-left: 5rem;margin-top: 5rem;
+            }
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div  >
+        <p> paragraph</p>
+    </div>
+</body>
+</html>

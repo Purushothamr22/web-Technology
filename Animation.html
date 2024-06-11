@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+           background-color: rgb(27, 27, 131);
+            width: 10rem;
+            height: 10rem;
+            margin-left: 500px;
+           transition: height 3s,width 3s;
+           transition-delay: 1ms;
+           transition-duration: 8s;
+         }
+       div:hover{
+        width: 20rem;
+        height: 20rem;
+       }
+       .timing{
+        transition-timing-function: ease;
+       }
+       .timing1{
+        transition-timing-function: ease-in;
+       }
+       .timing2{
+        transition-timing-function: ease-out;
+       }
+    </style>
+</head>
+<body>
+    <div class="timing";>
+        <i>Hello</i>
+    </div>
+    <hr>
+    <div class="timing1";>
+        <i>Hello</i>
+    </div>
+    <hr>
+    <div class="timing2";>
+        <i>Hello</i>
+    </div>
+
+    
+</body>
+</html>
